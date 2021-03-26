@@ -58,7 +58,7 @@ I would like to explains each controller one by one, their expected input and ou
 
 Url:      http://localhost:8080/Telecommunication/createCustomer
 method:   Post 
-Parameters: name 
+Parameters: ct_fName, ct_lName, ct_gender, ct_address
 
 above url reposible of creating Customers, its read the name  from client like postman and use
 the SqlUtils Class methods for inserting Customer in database.
